@@ -1,0 +1,98 @@
+:root {
+    --fonte-texto: "Raleway", sans-serif;
+    --fonte-botao: "Shanti", sans-serif;
+}
+
+body {
+    background-color: #e9e7db;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-bottom: 50px;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho_menu_link {
+    text-decoration: none;
+    font-family: var(--fonte-botao);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    border: 5px solid #587a70;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.cabecalho_menu_link:hover {
+    color: #587a70;
+    background-color: white;
+}
+
+.produtos_titulo {
+    font-size: 100px;
+    text-align: center;
+    margin: 50px;
+    color: #587a70;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.produtos_conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulodoproduto {
+    font-family: var(--fonte-texto);
+    text-align: center;
+}
+
+.valordoproduto {
+    font-family: var(--fonte-botao);
+    text-align: center;
+}
+
+.mulher {
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #587a70;
+}
+
+.homem {
+    width: 330px;
+    border-radius: 10px;
+    border: 2px solid #587a70;
+}
+
+.muculmana {
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #587a70;
+}
+
+.rodape_index {
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #587a70;
+    margin-top: 82px;
+}
